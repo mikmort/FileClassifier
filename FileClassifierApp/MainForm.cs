@@ -953,7 +953,7 @@ Guidelines:
                 foreach (var email in PotentialEmails.Take(5))
                     sb.AppendLine($"- {email}");
                 sb.AppendLine();
-            }
+            } 
             
             if (DocumentTypes.Any())
             {
